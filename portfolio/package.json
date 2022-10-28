@@ -9,7 +9,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "www": "ionic build --prod -- --base-href https://ultranamo.github.io && rm -rf ../docs && cp -R www ../docs"
   },
   "private": true,
   "dependencies": {
